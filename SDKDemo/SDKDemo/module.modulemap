@@ -1,0 +1,4 @@
+module SDKDemoPrivate {
+    header "OCExample.h"
+    export *
+}
