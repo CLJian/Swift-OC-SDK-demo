@@ -1,5 +1,5 @@
 # Swift-OC-SDK-demo
-SDK进行swift/oc混编，需要对外隐藏细节，同事oc和swift之间需要互相引用。最终打包成SDK。
+SDK进行swift/oc混编，需要对外隐藏细节，同时oc和swift之间需要互相引用。最终打包成SDK。
 
 swift和oc的互相引用使用module进行。
 
