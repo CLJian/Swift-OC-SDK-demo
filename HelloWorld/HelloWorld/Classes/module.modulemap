@@ -1,0 +1,5 @@
+module HelloWorldPrivate {
+    header "HelloOC.h"
+    export *
+}
+

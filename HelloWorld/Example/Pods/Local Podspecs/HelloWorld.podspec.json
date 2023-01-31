@@ -1,0 +1,28 @@
+{
+  "name": "HelloWorld",
+  "version": "0.1.0",
+  "summary": "A short description of HelloWorld.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/git/HelloWorld",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "git": "cailj@getui.com"
+  },
+  "source": {
+    "git": "https://github.com/git/HelloWorld.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HelloWorld/Classes/**/*",
+  "pod_target_xcconfig": {
+    "SWIFT_OBJC_INTERFACE_HEADER_NAME": "HelloWorld-Swift.h",
+    "SWIFT_INCLUDE_PATHS": "${PODS_TARGET_SRCROOT}/HelloWorld/Classes",
+    "OTHER_CFLAGS": "-fmodule-map-file=\"${PODS_TARGET_SRCROOT}/HelloWorld/Classes/module.modulemap\"",
+    "OTHER_CPLUSPLUSFLAGS": "$(OTHER_CFLAGS)"
+  }
+}
